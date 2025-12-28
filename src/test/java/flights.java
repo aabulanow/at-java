@@ -3,17 +3,17 @@
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
-import page.FlightsListPageHT;
 import page.LoginPageHT;
 import page.RegistrationPageHT;
 import page.SearchPageHT;
 
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+import static jdk.internal.misc.ThreadFlock.open;
 
 
 @TestMethodOrder(MethodOrderer.DisplayName.class)
-public class POMFlightsTestsHT {
+public class flights {
     @BeforeAll
     static void beforeAll() {
         SelenideLogger.addListener("allure", new AllureSelenide());

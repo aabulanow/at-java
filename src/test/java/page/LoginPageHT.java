@@ -1,6 +1,5 @@
 package page;
-
-public class LoginPageHT {import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import org.w3c.dom.html.HTMLInputElement;
@@ -8,6 +7,8 @@ import org.w3c.dom.html.HTMLInputElement;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
+public class LoginPageHT {
+
 
     public class LoginPageHT {
 
